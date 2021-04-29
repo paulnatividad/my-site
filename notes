@@ -1,0 +1,53 @@
+`HTML
+
+BLOCK Elements
+>> This occupies the whole box - that wraps it content content
+-Paragraphs (<p></p>)
+-Headers (<h1></h1>etc...)
+-Divisions (<div></div>)
+-List and list items (ol, ul and <li></li>)
+-Forms (<form></form>)
+
+Inline Elements
+-Spans (<span></span>)
+-Images (<img>)
+-anchors (<a></a>)
+
+`CSS
+Display: 
+-block 
+-inline 
+-inline-block 
+-none
+
+`Position
+-Static (default)
+-Relative
+>>Coordinates: Top, Left, Bottom, Right: 50px etc..
+-Absolute
+-Fixed
+
+body{
+    text-align:center; //This wil center all of its content
+}
+
+margin: top, right, bottom, Left
+margin: 0 auto 0 auto -->this will center the content
+
+*font embedding
+>>If we want to have the same font everytime a user vist your website.
+
+CSS
+- em: size of font
+1 em = 16px = 100% (in percentage font-size)
+
+- rem: size of font which will ignore the val of the parent
+let's say body{font-size: 200% or 2em} h1{font-size: 5.625rem} 
+>the font size of the h1 will ignore the body - font size.
+>>Recommended to use rem - adaptable to screen size.
+
+float: 
+>>to wrap around the Images
+>>only use float if really necessary
+>>do not use for Position
+>>For Positioning use: Relative, Absolute (position), margin and padding
